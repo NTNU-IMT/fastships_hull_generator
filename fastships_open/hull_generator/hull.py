@@ -11,14 +11,14 @@ import matplotlib
 matplotlib.rcParams['mathtext.fontset'] = 'stix'
 matplotlib.rcParams['font.family'] = 'STIXGeneral'
 
-import hull_generator.cross_sections as cross_sections
-import my_mesh.mesh as mesh
+import fastships_open.hull_generator.cross_sections as cross_sections
+import fastships_open.mesh_tools.mesh as mesh
+
+
 
 def cos_transition_func(dimless_par):
 	''' Cosine based smooth transition vector from 1 to 0. 1 when dimless_par is 0 and 0 when dimless_par is 1 '''
 	return 0.5*(1+np.cos(np.pi*dimless_par))
-
-
 
 
 class Hull():
