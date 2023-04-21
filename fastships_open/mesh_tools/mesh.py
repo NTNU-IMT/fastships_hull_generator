@@ -801,7 +801,7 @@ class Mesh():
 
 	def write_obj(self, output_file_path):
 		outfile 							= open(output_file_path, 'w')
-		outfile.write('# Mesh file exported from the my_mesh program by the Department of Marine Technology, NTNU\n')
+		outfile.write('# Mesh file exported from the mesh_tools module of the FASTSHIPS software by the Department of Marine Technology, NTNU\n')
 		outfile.write('#\n')
 		outfile.write('o object\n')
 		for i in range(self.n_verts):
