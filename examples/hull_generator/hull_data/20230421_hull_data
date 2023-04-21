@@ -1,17 +1,17 @@
 Hull data file, exported from the hull_generator module of the FASTSHIPS software by the Department of Marine Technology, NTNU
 
 Main dimensions:
-LWL                                  49.606896 m
-B                                    3.100431 m
-T                                    1.240172 m
+LWL                                  40.000000 m
+B                                    2.500000 m
+T                                    1.000000 m
 
 Hydrostatic properties:
-Volume displacement                  100.000000 m^3
+Volume displacement                  52.426856 m^3
 Block coefficient                    0.524269
 Slenderness ratio                    10.687482
-LCB, absolute                        20.191013 m
+LCB, absolute                        16.280812 m
 LCB, relative                        0.407020 
-Wetted surface                       187.735933 m^2
+Wetted surface                       122.062786 m^2
 L/B                                  16.000000
 B/T                                  2.500000
 T_transom/T                          0.500000
