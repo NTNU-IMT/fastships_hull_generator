@@ -7,7 +7,7 @@ modules. The former allows the generation of slender catamaran hulls,
 either from detailed data on longitudinal distributions of sectional parameters 
 or from main parameters and the ratios thereof. The latter is for modification 
 of meshes, creation of 3D meshes from 2D sectional data and for analysis of 
-volumetric and surface parameters of meshes.
+volumetric and surface properties of meshes.
 
 ## Getting Started
 
@@ -75,4 +75,4 @@ The development of this code was done at the NTNU Department of Marine Technolog
 It was funded by the enabling Zero Emission passenger 
 Vessel Services (ZEVS) research project (NFR grant No. 320659) and 
 SFI Smart Maritime (NFR grant No. 237917). Work was supervised by professors
-Sverre Steen and Odd Faltinsen.
+Sverre Steen and Odd Faltinsen. 
