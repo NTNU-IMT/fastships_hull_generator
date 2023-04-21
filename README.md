@@ -2,7 +2,7 @@
 Open Source part of the FASTSHIPS software package for design and 
 analysis of high-speed vessels. More information can be found on 
 the [FASTSHIPS web site](https://www.ntnu.edu/imt/software/fastships).
-The open parts of the software include the hull_generator and mesh_handling
+The open parts of the software include the hull_generator and mesh_tools
 modules. The former allows the generation of slender catamaran hulls, 
 either from detailed data on longitudinal distributions of sectional parameters 
 or from main parameters and the ratios thereof. The latter is for modification 
@@ -17,9 +17,10 @@ your local machine for development and testing purposes.
 ### Prerequisites
 
 Requirements for the software and other tools to build, test and push 
-- Numpy
-- Scipy
-- Matplotlib
+- numpy
+- scipy
+- matplotlib
+- setuptools
 
 ### Installing
 
@@ -32,7 +33,7 @@ following commands:
 
 ## Running the examples
 
-Example scripts for running the package are included in the Examples 
+Example scripts for running the package are included in the examples 
 directory, in the form of jupyter notebook documents. These can be opened
 in most editors, e.g. VS Code, or by installing and running Jupyter 
 Notebook from the command line. See instructions on 
