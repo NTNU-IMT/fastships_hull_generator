@@ -37,7 +37,7 @@ the action you have taken to solve it.
 
 ### Is it of good quality
 
-  - There are no bugs
+  - Well tested
   - Good parameter, method and class names which explain what things are.
   - Docstrings and comments where needed for understanding.
   - Parameter names fit with conventions otherwise used in the document
