@@ -1,4 +1,4 @@
-# FASTSHIPS_open
+# fastships_hull_generator
 Open Source part of the FASTSHIPS software package for design and 
 analysis of high-speed vessels. More information can be found on 
 the [FASTSHIPS web site](https://www.ntnu.edu/imt/software/fastships).
