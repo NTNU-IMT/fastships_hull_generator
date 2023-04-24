@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 with open('LICENSE.md') as f:
     license = f.read()
 
-setup(name="fastships_open",
+setup(name="fastships_hull_generator",
 	  version="0.0.0",
 	  description="Tools for generating demihulls representative of those found on slender-hull catamaran fast-ferries.",
 	  author="John Martin Godoe",

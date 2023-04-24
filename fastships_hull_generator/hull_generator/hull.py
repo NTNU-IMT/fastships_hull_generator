@@ -11,8 +11,8 @@ import matplotlib
 matplotlib.rcParams['mathtext.fontset'] = 'stix'
 matplotlib.rcParams['font.family'] = 'STIXGeneral'
 
-import fastships_open.hull_generator.cross_sections as cross_sections
-import fastships_open.mesh_tools.mesh as mesh
+import fastships_hull_generator.hull_generator.cross_sections as cross_sections
+import fastships_hull_generator.mesh_tools.mesh as mesh
 
 
 

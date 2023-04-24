@@ -4,7 +4,7 @@
 
 import numpy as np
 import hull_generator.hull as hull
-import fastships_open.mesh_tools.mesh as mesh
+import fastships_hull_generator.mesh_tools.mesh as mesh
 
 
 
