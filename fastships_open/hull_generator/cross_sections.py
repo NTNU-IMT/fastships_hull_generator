@@ -7,6 +7,7 @@ from scipy.special import gamma as gamma_func
 
 
 class CrossSection_wigley():
+	'''Wigley hull cross-sections'''
 	def __init__(self):
 		a = 0
 		self.n_points_half 			= 501
@@ -46,6 +47,7 @@ class CrossSection_wigley():
 		return self.area
 
 class CrossSection_superellipse():
+	'''Cross-section shapes based on superellipses of variable power.'''
 	def __init__(self):
 		a = 0
 		self.n_thetas_half			= 501
@@ -126,6 +128,8 @@ class CrossSection_superellipse():
 
 
 class CrossSection_edgy_superellipse(CrossSection_superellipse):
+	'''Cross-section shapes based on superellipses of variable power, simplified to 
+	straight-line edges for producability as aluminium hulls.'''
 	def __init__(self, n_flat_sides_subm_edgy_cs, n_flat_sides_flare):
 		super().__init__()
 		self.n_flat_sides_subm_half			= n_flat_sides_subm_edgy_cs

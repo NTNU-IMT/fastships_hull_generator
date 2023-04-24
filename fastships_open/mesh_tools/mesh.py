@@ -136,6 +136,13 @@ def remove_unused_verts_from_arrays_jit(faces_array, verts_array, n_verts, n_use
 
 
 class Mesh():
+	'''Mesh class. Included features:
+	- Import and export of Wavefront (.obj) files
+	- Scaling
+	- Translation
+	- Mirroring
+	- Cutting, with and without closing the cut face with a new face
+	- Cleanup in the form of removal of zero area faces and unused vertices'''
 	def __init__(self):
 		self.multiple_face_groups				= False
 

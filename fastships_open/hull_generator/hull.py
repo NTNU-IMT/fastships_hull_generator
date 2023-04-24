@@ -22,6 +22,7 @@ def cos_transition_func(dimless_par):
 
 
 class Hull():
+	'''General hull shape class, for creation of demihulls for slender catamarans.'''
 	def __init__(self):
 		a = 0
 		self.close_mesh						= True #Change to false if a hull mesh without a water-tight transom and deck is desired
